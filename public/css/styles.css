@@ -1,0 +1,15 @@
+.center-text{
+    text-align: center;
+}
+
+.modal-container{
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.center-div{
+    margin: auto;
+    width: 50%;
+}

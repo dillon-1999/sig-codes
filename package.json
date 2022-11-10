@@ -1,0 +1,20 @@
+{
+  "name": "sig-codes",
+  "version": "1.0.0",
+  "description": "Used for learning sig codes for a pharmacy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-db": "sqlite3 ./Database/SigCodes.db < ./Database/schema.sql"
+  },
+  "author": "DB",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.30.1",
+    "better-sqlite3": "^7.6.2",
+    "bootstrap": "^5.2.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
