@@ -9,17 +9,22 @@
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
-    <h1 class="center-text">Learn Sig Codes!</h1>
-    <div></div>
-    <div class="modal-container center-div">
+    <header class="view-box">
+        <h1 class="center-text">Practice Sig Codes!</h1>
+        <progress id="progress-bar" value="0" max="173"></progress>
+    </header>
+    
+    <div class="view-box box-height">
         <h1 id="question-type" class="center-text">Guess the Sig Code</h1>
         <div id="code-container">
-            <p id="code">Si</p>
-            <p id="translation"></p>
+            <p id="code">Code</p>
+            <div id="overlay" class="translation-overlay overlay-hidden">
+                <span id="click-to-show" style="display: none">Click To Show</span>
+                <p id="translation" class="translation-shown">Translation</p>
+            </div>
         </div>
-        <span><button id="reset-button">Reset</button></span>
-        <span><button id="get-code">Next</button></span>
+        <span><button id="reset-button" class="button">Reset</button></span>
+        <span><button id="get-code" class="button">Next</button></span>
     </div>
-    
 </body>
 </html>

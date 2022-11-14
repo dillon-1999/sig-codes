@@ -7,7 +7,7 @@ const { visitModel } = require('./Models/VisitModel.js');
 const PORT = 8006;
 
 app.use(express.static(path.join(__dirname, "public"), {
-    extensions: ['html', 'js', 'css'],
+    extensions: ['html', 'js', 'css', 'jpg'],
 }));
 app.use(express.static('public'));
 require("./Controllers/SigCodeController.js")(app);
